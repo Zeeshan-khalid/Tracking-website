@@ -7,7 +7,7 @@ const user = require('./controllers/user')
 
 // require('./db')
 
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 3000
 
 app.use(cors())
 app.use(bodyParser.json({limit:'20mb', extended:true}))
