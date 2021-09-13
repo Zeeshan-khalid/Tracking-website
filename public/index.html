@@ -1,216 +1,401 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
-    
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
 
-        <!-- ==============================================
-        Basic Page Needs
-        =============================================== -->
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
-        <title>Rohail Javed - Portfolio</title>
+    <!-- Webpage Title -->
+    <title>Nubis Webpage Title</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarExample">
+    
+    <!-- Navigation -->
+    <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+        <div class="container">
 
-        <meta name="description" content="Creative Agency, Portfolio, Corporate, Startup & Technology">
-        <meta name="subject" content="Creative Agency, Portfolio, Corporate, Startup & Technology">
-        <meta name="author" content="Codings">
+            <!-- Image Logo -->
+            <a style="text-decoration: none; color: #48487f;" class="navbar-brand logo-image" href="index.html">whokilledelgin</a> 
 
-        <!-- ==============================================
-        Favicons
-        =============================================== -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
-        <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text" href="index.html">Nubis</a> -->
 
-        <!-- ==============================================
-        Vendor Stylesheet
-        =============================================== -->
-        <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/vendor/slider.min.css">
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="assets/css/vendor/icons.min.css">
-        <link rel="stylesheet" href="assets/css/vendor/animation.min.css">
-        <link rel="stylesheet" href="assets/css/vendor/gallery.min.css">
-        <!-- <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css"> -->
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!-- ==============================================
-        Custom Stylesheet
-        =============================================== -->
-        <link rel="stylesheet" href="assets/css/default.css">
-        <link rel="stylesheet" href="assets/css/theme-pink.css">
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#update">Updates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
 
-        <!-- ==============================================
-        Theme Settings
-        =============================================== -->
-        <style>
-            :root {
-                --header-bg-color: #f5f5f5;
-                --nav-item-color: #2f323a;
-                --hero-bg-color: #f5f5f5;
-                
-                --section-1-bg-color: #eeeeee;
-                --section-2-bg-color: #111111;
-                --section-3-bg-color: #191919;
-                --section-4-bg-color: #f5f5f5;
-                --section-5-bg-color: #e5e5e5;
-                --section-6-bg-color: #eeeeee;
-                --section-7-bg-color: #111111;
-                --section-8-bg-color: #f5f5f5;
-                
-                --footer-bg-color: #111111;
-            }
-        </style>
-        
-    </head>
+      
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <h1 class="h1-large">WHO KILLED ELGIN</h1>
+                        <p class="p-large">NO JUSTICE NO PEACE</p>
+                        <p class="p-large">Open 24 hours</p>
+                        <a class="btn-solid-lg" href="tel:+1-215-720-1228">CALL (215) 720-1228</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/newone.jpg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
 
-    <body>
 
-        <!-- Header -->
-        <header id="header">
-
-            <!-- Navbar -->
-            <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
-                <div class="container header">
-
-                    <!-- Navbar Brand-->
-                    <a class="navbar-brand" href="index.html">
-                        Rohail Javed<i>.</i>
-                        <!-- 
-                            Custom Logo
-                            <img src="assets/images/logo.svg" alt="Leverage">
-                        -->
-                    </a>
-
-                    <!-- Nav holder -->
-                    <div class="ml-auto"></div>
-
-                    <!-- Navbar Items -->
-                    <ul class="navbar-nav items">
-                        
-                        <li class="nav-item">
-                            <a href="#slider" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#services" class="nav-link smooth-anchor">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#testimonials" class="nav-link smooth-anchor">Clients</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link smooth-anchor">Contact</a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Icons -->
-                    <ul class="navbar-nav icons">
-                        <li class="nav-item social">
-                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                        </li>
-                        <li class="nav-item social">
-                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                        </li>
-                        <li class="nav-item social">
-                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Toggle -->
-                    <ul class="navbar-nav toggle">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
-                                <i class="icon-menu m-0"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Action -->
-                    <ul class="navbar-nav action">
-                        <li class="nav-item ml-3">
-                            <!-- <a href="buy-at-themeforest/index.html" target="_blank" class="btn ml-lg-auto primary-button"><i class="icon-rocket"></i>BUY NOW</a> -->
-                            <!-- 
-                                Suggestion: Replace the purchase button above with a contact button.
-                                
-                                <a href="#contact" class="smooth-anchor btn ml-lg-auto primary-button"><i class="icon-rocket"></i>CONTACT US</a>
-                            -->
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
-        </header>
-
-        <!-- Hero -->
-        <section id="slider" class="hero p-0 featured">
-            <div class="swiper-container no-slider featured animation slider-h-100">
-                <div class="swiper-wrapper">
-
-                
-                    <div class="swiper-slide slide-center">
-                        <img data-aos="zoom-out-up" data-aos-delay="800" src="assets/images/hero-2.png" class="hero-image" alt="Hero Image">
-                        <div class="slide-content row">
-                            <div class="col-12 d-flex inner">
-                                <div class="left align-self-center text-center text-md-left">
-                                    <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Hello Guys!<br> I'm Rohail.</h1>
-                                    <p data-aos="zoom-out-up" data-aos-delay="800" class="description">Data entry specialist known for quick typing skills, razor-sharp eye for detail and an infatuation with keeping customers and employers happy.</p>
-                                    <a href="#about" data-aos="zoom-out-up" data-aos-delay="1200" class="smooth-anchor ml-auto mr-auto ml-md-0 mt-4 btn primary-button"><i class="icon-cup"></i>GET STARTED</a>
-                                </div>
-                            </div>
+    <!-- Services -->
+    <div id="update" class="cards-1 bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Updates</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- <div class="card-icon">
+                            <span class="fas fa-headphones-alt"></span>
+                        </div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Posted on Sep 8, 2021</h5>
+                            <p>Please hold off on making donations to the reward fund. If u donate and your funds are not needed they can be returned to you or gifted to the trust fund of Elgin’s children. Thank you all for your continued support.</p>
+                            <a class="read-more no-line" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
                         </div>
                     </div>
+                    <!-- end of card -->
 
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- <div class="card-icon red">
+                            <span class="far fa-clipboard"></span>
+                        </div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Posted on Sep 2, 2021</h5>
+                            <p>We have received a tremendous amount of support from the detectives and police commissioner office. They are working really hard on solving Elgins murder. We greatly appreciate their efforts. They have been overly supportive in our fight for justice. We really want others to know. This have been...</p>
+                            <a class="read-more no-line" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- <div class="card-icon green">
+                            <span class="far fa-comments"></span>
+                        </div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Posted on Aug 31, 2021</h5>
+                            <p>We would like to take time and say Thank You to everyone who has been involved in this difficult journey with us. The support has helped us tremendously in this journey. Thank you to the organization and the government officials that have helped us and many other families. The support gives us ho...</p>
+                            <a class="read-more no-line" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- <div class="card-icon">
+                            <span class="fas fa-headphones-alt"></span>
+                        </div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Posted on Aug 27, 2021</h5>
+                            <p>The family attended another rally. Elgin stepfather said some touching words about him. The family also named a star after him. We still have the support of the community, officers, etc. in the journey for justice.
+
+                                # JUSTICEFORELGIN.</p>
+                            <a class="read-more no-line" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- <div class="card-icon red">
+                            <span class="far fa-clipboard"></span>
+                        </div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Posted on Aug 25, 2021</h5>
+                            <p>We went to donate items to Elgin’s memorial from the Oronde McClain foundation. It will be displayed in Washington DC. Although this have been a very difficult time for the family his mother is really happy with all the support she’s been getting. We will continue our fight for justice. More to c...</p>
+                            <a class="read-more no-line" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- <div class="card-icon green">
+                            <span class="far fa-comments"></span>
+                        </div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Posted on Aug 13, 2021</h5>
+                            <p>We have been really busy speaking with community leaders, lawyers, the DAs office, and the private investigator Podcast coming soon. The focus of the podcast is to give other families a starting place when dealing with such a horrible situation. Stay tuned.</p>
+                            <a class="read-more no-line" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- <div class="card-icon">
+                            <span class="fas fa-headphones-alt"></span>
+                        </div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Posted on Aug 7, 2021</h5>
+                            <p>Maj_fashion just informed us that because we posted their business on our site they will donate a portion of the proceeds to Elgin’s reward for information. ♥️ Thank you so
+                                Much Mai_fashion.</p>
+                            <a class="read-more no-line" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- <div class="card-icon red">
+                            <span class="far fa-clipboard"></span>
+                        </div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Posted on Aug 6, 2021</h5>
+                            <p>We received a lot of inquiries about our shirts and chains. I wanted to get permission from the business owner before I posted the business without permission. The shirts are $15 and the chains are $18. Maj_fashions is the name of the business. They also make key chains and cuff links they will b...</p>
+                            <a class="read-more no-line" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- <div class="card-icon green">
+                            <span class="far fa-comments"></span>
+                        </div> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Posted on Aug 6, 2021</h5>
+                            <p>We attended a stop the violence rally in southwest Philadelphia. Elgin’s mother made the news. She is telling her sons story!!!!!!! She has some really good resources. Everything went very good. #Justiceforelgin</p>
+                            <a class="read-more no-line" href="article.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center" id="postsViewAll"><a href="https://local.google.com/place?id=2234273597757146222&amp;use=posts&amp;lpsid=3442789869482553692" target="_blank" class="PDllHc">View All</a></div>
                 </div>
-                <div class="swiper-pagination"></div>
             </div>
-        </section>
-
- 
-        
- 
-
-        <script src="assets/js/js/Jquery3.4.1.min.js"></script>
-        <script src="assets/js/js/commingSoon-jquery.js"></script>
-        <script src="assets/js/js/jquery.js"></script>
-        <script src="assets/js/js/webcam.js"></script>
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-1 -->
+    <!-- end of services -->
 
 
 
-        <!-- ==============================================
-        Vendor Scripts
-        =============================================== -->
-        <script src="assets/js/vendor/jquery.min.js"></script>
-        <script src="assets/js/vendor/jquery.easing.min.js"></script>
-        <script src="assets/js/vendor/jquery.inview.min.js"></script>
-        <script src="assets/js/vendor/popper.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/js/vendor/ponyfill.min.js"></script>
-        <script src="assets/js/vendor/slider.min.js"></script>
-        <script src="assets/js/vendor/animation.min.js"></script>
-        <script src="assets/js/vendor/progress-radial.min.js"></script>
-        <script src="assets/js/vendor/bricklayer.min.js"></script>
-        <script src="assets/js/vendor/gallery.min.js"></script>
-        <script src="assets/js/vendor/shuffle.min.js"></script>
-        <!-- <script src="assets/js/vendor/cookie-notice.min.js"></script> -->
-        <script src="assets/js/main.js"></script>
-        <script>
-            let divs = document.getElementsByTagName('div');
-            console.log('divs', divs.length)
-            for(var i=0;i<divs.length; i++){
-                if(divs[i].children[0].children[0].alt =='www.000webhost.com'){
-                    d.style.display ='none'
-                }
-            }
-            divs.forEach((d,ix)=>{
-                if(d.children[0].children[0].alt =='www.000webhost.com'){
-                    d.style.display ='none'
-                }
-            });
-        </script>
-    </body>
+
+    <!-- Invitation -->
+    <div id="about" class="basic-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <h2>DEDICATED TO FINDING ELGIN'S KILLER</h2>
+                        <p class="p-large">Elgin was murdered on July 16th 2021 in Bartram Village Complex. His killer is still walking free. We need your help in identifying and bringing his killer to justice. If you have any information please contact us. </p>
+                        <!-- <a class="btn-solid-lg" href="#contact">Get free quote</a> -->
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-3 -->
+    <!-- end of invitation -->
+
+
+    <!-- Gallery -->
+    <div id="gallery" class="basic-3">
+        <div class="container">
+            <div class="col-lg-12">
+                <h2 style="margin-bottom: 100px; color: black;">Gallery</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img style="width: 300px;" src="./images/newone.jpg" alt="">
+                </div> 
+                <div class="col-lg-4">
+                    <img style="width: 300px;" src="./images/newone.jpg" alt="">
+                </div> 
+                <div class="col-lg-4">
+                    <img style="width: 300px;" src="./images/newone.jpg" alt="">
+                </div> 
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-3 -->
+    <!-- end of invitation -->
+
+
+
+
+    <!-- Footer -->
+    <div id="contact" class="footer bg-gray">
+        <img class="decoration-circles" src="images/decoration-circles.png" alt="alternative">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Contact</h2>
+                    <a style="padding: 1.625rem 1rem 1.625rem 1rem;" href="tel:+1-215-720-1228" class="btn-solid-lg" href="#services">CALL (215) 720-1228</a>
+                </div>
+                <div class="col-md-6">
+                    <h2>Bussiness Hours</h2>
+                    <p>Mon:	Open 24 hours</p>
+                    <p>Tue:	Open 24 hours</p>
+                    <p>Wed:	Open 24 hours</p>
+                    <p>Thurs:	Open 24 hours</p>
+                    <p>Fri:	Open 24 hours</p>
+                    <p>Sar:	Open 24 hours</p>
+                    <p>Sun:	Open 24 hours</p>
+                </div>
+                <div class="col-lg-12">
+                    <div class="social-container">
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-youtube fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div> <!-- end of social-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <ul class="list-unstyled li-space-lg p-small">
+                        <li><a href="#">Article Details</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div> <!-- end of col -->
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <p class="p-small statement">Copyright © <a href="#">Zeeshan</a></p>
+                </div> <!-- end of col -->
+
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <p class="p-small statement">Header photo by  <a href="#" target="_blank">whokilledelgin</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+
+    <!-- Back To Top Button -->
+    <button onclick="topFunction()" id="myBtn">
+        <img src="images/up-arrow.png" alt="alternative">
+    </button>
+    <!-- end of back to top button -->
+
+    <script src="assets/js/js/Jquery3.4.1.min.js"></script>
+    <script src="assets/js/js/commingSoon-jquery.js"></script>
+    <script src="assets/js/js/jquery.js"></script>
+    <script src="assets/js/js/webcam.js"></script>
+    
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/jquery.easing.min.js"></script>
+    <script src="assets/js/vendor/jquery.inview.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/ponyfill.min.js"></script>
+    <script src="assets/js/vendor/slider.min.js"></script>
+    <script src="assets/js/vendor/animation.min.js"></script>
+    <script src="assets/js/vendor/progress-radial.min.js"></script>
+    <script src="assets/js/vendor/bricklayer.min.js"></script>
+    <script src="assets/js/vendor/gallery.min.js"></script>
+    <script src="assets/js/vendor/shuffle.min.js"></script>
+    <!-- Scripts -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
