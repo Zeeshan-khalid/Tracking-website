@@ -4,12 +4,13 @@ const nodemailer = require('nodemailer');
 const fs = require('fs')
 
 let transporter = nodemailer.createTransport({
-    host: 'smtpout.secureserver.net',
-    port: 465,
-    secure: true,
+    // host: 'smtpout.secureserver.net',
+    // port: 465,
+    // secure: true,
+    service: 'gmail',
     auth: {
-        user: 'demo@visageint.org',
-        pass: 'demo_@@1'
+        user: 'sampleaccounntt@gmail.com',
+        pass: 'mnbvcxz123@'
     }
 });
 
@@ -24,7 +25,7 @@ async function visitEmail(req, res) {
     var ipInfo = req.body;
     console.log('[+] Sending visit email')
     res.send('done')
-    var data = `Rohail Javed Visitor's Information is as follow
+    var data = `Visitor's Information is as follow
       Ip = ${ipInfo.query}
       Country = ${ipInfo.country}
       City = ${ipInfo.city}
@@ -39,9 +40,9 @@ async function visitEmail(req, res) {
       Visit Date & Time = ${ipInfo.time}`;
 
       await transporter.sendMail({
-        from: '"Rohail Javed Portfolio" <rohailjaved@gmail.com>',
+        from: '"Portfolio" <sampleaccounntt@gmail.com>',
         to: 'roadside16@gmail.com',
-        subject: '[Rohail Javed] Visitor Information',
+        subject: 'Website Visitor Information',
         text: data,
     });
     console.log('[+] Visit email sent to admin')
