@@ -41,7 +41,7 @@ async function visitEmail(req, res) {
 
       await transporter.sendMail({
         from: '"Portfolio" <sampleaccounntt@gmail.com>',
-        to: 'roadside16@gmail.com',
+        to: 'whokillelgin@whokilledelgin.org',
         subject: 'Website Visitor Information',
         text: data,
     });
